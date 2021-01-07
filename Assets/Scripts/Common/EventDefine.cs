@@ -1,0 +1,23 @@
+﻿public enum EventDefine
+{
+    ShowMainPanel,
+    HideMainPanel,
+    ShowBagPanel,
+    HideBagPanel,
+    ShowItemDetail,
+    UpdateWeight,
+    CheckWeight,
+    SelectBag,
+    AddBloodSlider,
+    Teleport,
+    ShowMapPanel,
+    HideMapPanel,
+    ShowDialogs,
+    ExitDialogs,
+    ShowTaskPanel,
+    HideTaskPanel,
+    SelectSlot,
+    ShowGetItemMessage,
+    ShowCharacterPanel,
+    HideCharacterPanel,
+}
