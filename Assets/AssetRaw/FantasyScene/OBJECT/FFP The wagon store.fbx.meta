@@ -1,0 +1,501 @@
+fileFormatVersion: 2
+guid: 25b424df4e4610a4d92b91a4dd544df5
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: ikHandle1
+    100004: ikHandle10
+    100006: ikHandle11
+    100008: ikHandle12
+    100010: ikHandle2
+    100012: ikHandle3
+    100014: ikHandle4
+    100016: ikHandle5
+    100018: ikHandle6
+    100020: ikHandle7
+    100022: ikHandle8
+    100024: ikHandle9
+    100026: joint1
+    100028: joint10
+    100030: joint100
+    100032: joint101
+    100034: joint102
+    100036: joint103
+    100038: joint104
+    100040: joint105
+    100042: joint106
+    100044: joint106 1
+    100046: joint107
+    100048: joint107 1
+    100050: joint109
+    100052: joint109 1
+    100054: joint11
+    100056: joint110
+    100058: joint111
+    100060: joint112
+    100062: joint113
+    100064: joint115
+    100066: joint116
+    100068: joint117
+    100070: joint118
+    100072: joint12
+    100074: joint120
+    100076: joint13
+    100078: joint14
+    100080: joint15
+    100082: joint16
+    100084: joint17
+    100086: joint18
+    100088: joint19
+    100090: joint2
+    100092: joint20
+    100094: joint21
+    100096: joint22
+    100098: joint23
+    100100: joint24
+    100102: joint25
+    100104: joint26
+    100106: joint27
+    100108: joint28
+    100110: joint29
+    100112: joint3
+    100114: joint30
+    100116: joint31
+    100118: joint32
+    100120: joint33
+    100122: joint34
+    100124: joint35
+    100126: joint36
+    100128: joint37
+    100130: joint38
+    100132: joint39
+    100134: joint4
+    100136: joint40
+    100138: joint41
+    100140: joint42
+    100142: joint43
+    100144: joint5
+    100146: joint52
+    100148: joint53
+    100150: joint54
+    100152: joint55
+    100154: joint6
+    100156: joint7
+    100158: joint71
+    100160: joint72
+    100162: joint73
+    100164: joint74
+    100166: joint75
+    100168: joint76
+    100170: joint8
+    100172: joint9
+    100174: joint91
+    100176: joint91 1
+    100178: joint91 2
+    100180: joint91 3
+    100182: joint92
+    100184: joint92 1
+    100186: joint92 2
+    100188: joint92 3
+    100190: joint93
+    100192: joint93 1
+    100194: joint93 2
+    100196: joint93 3
+    100198: joint94
+    100200: joint95
+    100202: joint96
+    100204: joint97
+    100206: joint98
+    100208: joint99
+    100210: nurbsCircle1
+    100212: nurbsCircle2
+    100214: nurbsCircle3
+    100216: nurbsCircle4
+    100218: nurbsCircle5
+    100220: polySurface566
+    100222: polySurface570
+    100224: polySurface573
+    100226: polySurface576
+    100228: polySurface600
+    100230: polySurface601
+    100232: polySurface602
+    100234: polySurface603
+    100236: polySurface604
+    100238: polySurface605
+    100240: polySurface606
+    100242: polySurface607
+    100244: polySurface610
+    100246: polySurface612
+    100248: polySurface637
+    100250: polySurface638
+    100252: polySurface640
+    100254: polySurface644
+    100256: pSphere2
+    100258: pSphere3
+    100260: Wheel_01
+    100262: Wheel_02
+    100264: Wheel_03
+    100266: Wheel_04
+    400000: //RootNode
+    400002: ikHandle1
+    400004: ikHandle10
+    400006: ikHandle11
+    400008: ikHandle12
+    400010: ikHandle2
+    400012: ikHandle3
+    400014: ikHandle4
+    400016: ikHandle5
+    400018: ikHandle6
+    400020: ikHandle7
+    400022: ikHandle8
+    400024: ikHandle9
+    400026: joint1
+    400028: joint10
+    400030: joint100
+    400032: joint101
+    400034: joint102
+    400036: joint103
+    400038: joint104
+    400040: joint105
+    400042: joint106
+    400044: joint106 1
+    400046: joint107
+    400048: joint107 1
+    400050: joint109
+    400052: joint109 1
+    400054: joint11
+    400056: joint110
+    400058: joint111
+    400060: joint112
+    400062: joint113
+    400064: joint115
+    400066: joint116
+    400068: joint117
+    400070: joint118
+    400072: joint12
+    400074: joint120
+    400076: joint13
+    400078: joint14
+    400080: joint15
+    400082: joint16
+    400084: joint17
+    400086: joint18
+    400088: joint19
+    400090: joint2
+    400092: joint20
+    400094: joint21
+    400096: joint22
+    400098: joint23
+    400100: joint24
+    400102: joint25
+    400104: joint26
+    400106: joint27
+    400108: joint28
+    400110: joint29
+    400112: joint3
+    400114: joint30
+    400116: joint31
+    400118: joint32
+    400120: joint33
+    400122: joint34
+    400124: joint35
+    400126: joint36
+    400128: joint37
+    400130: joint38
+    400132: joint39
+    400134: joint4
+    400136: joint40
+    400138: joint41
+    400140: joint42
+    400142: joint43
+    400144: joint5
+    400146: joint52
+    400148: joint53
+    400150: joint54
+    400152: joint55
+    400154: joint6
+    400156: joint7
+    400158: joint71
+    400160: joint72
+    400162: joint73
+    400164: joint74
+    400166: joint75
+    400168: joint76
+    400170: joint8
+    400172: joint9
+    400174: joint91
+    400176: joint91 1
+    400178: joint91 2
+    400180: joint91 3
+    400182: joint92
+    400184: joint92 1
+    400186: joint92 2
+    400188: joint92 3
+    400190: joint93
+    400192: joint93 1
+    400194: joint93 2
+    400196: joint93 3
+    400198: joint94
+    400200: joint95
+    400202: joint96
+    400204: joint97
+    400206: joint98
+    400208: joint99
+    400210: nurbsCircle1
+    400212: nurbsCircle2
+    400214: nurbsCircle3
+    400216: nurbsCircle4
+    400218: nurbsCircle5
+    400220: polySurface566
+    400222: polySurface570
+    400224: polySurface573
+    400226: polySurface576
+    400228: polySurface600
+    400230: polySurface601
+    400232: polySurface602
+    400234: polySurface603
+    400236: polySurface604
+    400238: polySurface605
+    400240: polySurface606
+    400242: polySurface607
+    400244: polySurface610
+    400246: polySurface612
+    400248: polySurface637
+    400250: polySurface638
+    400252: polySurface640
+    400254: polySurface644
+    400256: pSphere2
+    400258: pSphere3
+    400260: Wheel_01
+    400262: Wheel_02
+    400264: Wheel_03
+    400266: Wheel_04
+    2300000: polySurface600
+    2300002: polySurface601
+    2300004: polySurface602
+    2300006: polySurface603
+    2300008: polySurface612
+    2300010: polySurface638
+    2300012: polySurface640
+    2300014: polySurface644
+    2300016: pSphere2
+    2300018: pSphere3
+    3300000: polySurface600
+    3300002: polySurface601
+    3300004: polySurface602
+    3300006: polySurface603
+    3300008: polySurface612
+    3300010: polySurface638
+    3300012: polySurface640
+    3300014: polySurface644
+    3300016: pSphere2
+    3300018: pSphere3
+    4300000: polySurface570
+    4300002: polySurface573
+    4300004: polySurface576
+    4300006: polySurface566
+    4300008: pSphere2
+    4300010: pSphere3
+    4300012: polySurface597
+    4300014: polySurface598
+    4300016: polySurface600
+    4300018: polySurface601
+    4300020: polySurface602
+    4300022: polySurface603
+    4300024: polySurface604
+    4300026: polySurface605
+    4300028: polySurface606
+    4300030: polySurface607
+    4300032: polySurface608
+    4300034: polySurface609
+    4300036: polySurface610
+    4300038: polySurface612
+    4300040: polySurface613
+    4300042: polySurface614
+    4300044: pSphere4
+    4300046: polySurface628
+    4300048: polySurface630
+    4300050: polySurface632
+    4300052: polySurface633
+    4300054: polySurface634
+    4300056: polySurface635
+    4300058: polySurface636
+    4300060: polySurface637
+    4300062: polySurface640
+    4300064: polySurface638
+    4300066: polySurface641
+    4300068: polySurface643
+    4300070: polySurface644
+    6400000: polySurface600
+    6400002: polySurface601
+    6400004: polySurface602
+    6400006: polySurface603
+    6400008: polySurface612
+    6400010: polySurface638
+    6400012: polySurface640
+    6400014: polySurface644
+    6400016: pSphere2
+    6400018: pSphere3
+    7400000: walking
+    7400002: idle
+    7400004: walking_Wheel-
+    11100000: //RootNode
+    13700000: polySurface566
+    13700002: polySurface570
+    13700004: polySurface573
+    13700006: polySurface576
+    13700008: polySurface604
+    13700010: polySurface605
+    13700012: polySurface606
+    13700014: polySurface607
+    13700016: polySurface610
+    13700018: polySurface637
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: walking
+      takeName: 
+      firstFrame: 1
+      lastFrame: 32
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle
+      takeName: 
+      firstFrame: 40
+      lastFrame: 199
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walking_Wheel-
+      takeName: 
+      firstFrame: 211
+      lastFrame: 242
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
