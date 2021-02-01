@@ -20,4 +20,8 @@
     ShowGetItemMessage,
     ShowCharacterPanel,
     HideCharacterPanel,
+    ShowWholePlotPanel,
+    HideWholePlotPanel,
+    ShowPlot,
+    MovePuzzleBlock,
 }

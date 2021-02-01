@@ -6,6 +6,8 @@ public class GameManager : Singleton<GameManager> {
 
     public Vector3 Forward { get => forward; set => forward = value; }
     public bool CanOprate { get => canOprate; set => canOprate = value; }
+    public GameObject Player { get => player;  }
+
     [SerializeField]
     private bool canOprate = true;
     private Vector3 forward =new Vector3 (0, 0, 1);
@@ -39,19 +41,29 @@ public class GameManager : Singleton<GameManager> {
         //}
 
     }
-
-    public void OpenOrCloseMap()
+    
+    public void TeleportPlayer(Vector3 targetPos)
     {
-        mapCanvas.gameObject.SetActive(!mapCanvas.gameObject.activeSelf);
-        if (mapCanvas.gameObject.activeSelf)
+        player.transform.position = targetPos;
+    }
+
+    public void InitNewScene()
+    {
+        var sceneName = SceneMgr.Instance.loadingSceneName;
+        switch(sceneName)
         {
-            mainCamera.gameObject.SetActive(false);
-            canOprate = false;
+            case "purpleScene":
+                SetPlayerProperty(PurpleScene.Instance.initPos,1);
+                break;
+
+            default:
+                break;
         }
-        else
-        {
-            mainCamera.gameObject.SetActive(true);
-            canOprate = true;
-        }
+    }
+
+    public void SetPlayerProperty(Vector3 targetPos,float targetScale)
+    {
+        player.transform.position = targetPos;
+        player.transform.localScale = new Vector3(targetScale, targetScale, targetScale);
     }
 }

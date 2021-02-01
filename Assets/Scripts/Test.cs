@@ -8,8 +8,9 @@ public class Test : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.S))
-            SceneMgr.Instance.GoSceneTo("greenScene");
-
+        if(Input.GetKeyDown(KeyCode.B))
+        {
+            PlotMgr.Instance.ShowPlot(PlotMgr.Instance.firstPlotContents);
+        }
     }
 }

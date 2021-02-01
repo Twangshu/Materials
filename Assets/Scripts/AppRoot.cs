@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class AppRoot : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class AppRoot : MonoBehaviour
     /// 调试数据
     /// </summary>
 
+    string[] test = { "aaaaaaaaaaaaa", "gggggggggggggggggggg" };
+    private Action nullAct = null;
     private void Awake()
     {
         Instance = this;
@@ -36,6 +39,7 @@ public class AppRoot : MonoBehaviour
         AddManager(ResManager.Instance);
         AddManager(GameManager.Instance);
         AddManager(SceneMgr.Instance);
+       // AddManager(PlotMgr.Instance);
     }
 
     public void AddManager(ISingleton mgr)

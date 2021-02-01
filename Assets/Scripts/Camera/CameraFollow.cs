@@ -55,6 +55,21 @@ public class CameraFollow : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.P))
         {
             PlayerCamera.enabled = !playerCamera.enabled;
+            if(playerCamera.enabled)
+            {
+                distance /= 2;
+                distanceMax /= 2;
+                distanceMin /= 2;
+                distanceSpeed /= 2;
+            }
+            else
+            {
+                distance *= 2;
+                distanceMax *= 2;
+                distanceMin *= 2;
+                distanceSpeed *= 2;
+            }
+
         }
         ChangeRotationY(); //水平旋转
         ChangeAngle(); //垂直旋转

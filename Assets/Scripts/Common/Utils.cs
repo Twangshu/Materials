@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Utils 
+public class Utils
 {
     public static Sprite Tex2Sprite(Texture2D tex)
     {
-        if(tex==null)
+        if (tex == null)
         {
             return null;
         }
@@ -26,7 +26,7 @@ public class Utils
             //屏幕空间宽度值
             float swidth = viewPos.x * Screen.width;
             //适配转化
-            return new Vector2(GetFixed(swidth,canvas), GetFixed(sheight,canvas));
+            return new Vector2(GetFixed(swidth, canvas), GetFixed(sheight, canvas));
         }
         //返回一个固定值-1代表不在屏幕当中
         return -Vector2.one;
@@ -57,9 +57,9 @@ public class Utils
         return false;
     }
 
-    public static bool isBetween(float value,float min,float max)
+    public static bool isBetween(float value, float min, float max)
     {
-        if (min <= value &&value<= max)
+        if (min <= value && value <= max)
             return true;
         return false;
     }
@@ -73,3 +73,29 @@ public class Utils
         return -1;
     }
 }
+
+    public class Tuple<T1, T2>
+    {
+        public T1 t1;
+        public T2 t2;
+        public Tuple() { }
+
+        public Tuple(T1 t1, T2 t2)
+        {
+            this.t1 = t1;
+            this.t2 = t2;
+        }
+        public override bool Equals(object obj)
+        {
+            var other = (Tuple<T1, T2>)obj;
+            return other.t1.Equals(t1) && other.t2.Equals(t2);
+        }
+
+        public override int GetHashCode()
+        {
+            int t1_hashcode = t1.GetHashCode();
+            int t2_hashcode = t2.GetHashCode();
+            return t1_hashcode + t2_hashcode;
+        }
+    }
+

@@ -17,14 +17,15 @@ public class BaseUIPanel : MonoBehaviour
         initPos = transform.position;
         EventCenter.AddListener(ShowType, ShowThis);
         EventCenter.AddListener(HideType, HideThis);
+        HideThis();
     }
 
     public virtual void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Escape))
-        {
-            HideThis();
-        }
+        //if(Input.GetKeyDown(KeyCode.Escape))
+        //{
+        //    HideThis();
+        //}
     }
 
     protected virtual void OnDestroy()
@@ -38,14 +39,14 @@ public class BaseUIPanel : MonoBehaviour
         //if (isOn)
         //    return;
         //isOn = true;
-        AudioManager.Instance.PlayClickEffect();
+        //AudioManager.Instance.PlayClickEffect();
         gameObject.SetActive(true);
       //  transform.position = initPos;
-        UIManager.Instance.PushPanel(this);
-        if(ShowType!=EventDefine.ShowMainPanel)
-        {
-            EventCenter.Broadcast(EventDefine.HideMainPanel);
-        }
+        //UIManager.Instance.PushPanel(this);
+        //if(ShowType!=EventDefine.ShowMainPanel)
+        //{
+        //    EventCenter.Broadcast(EventDefine.HideMainPanel);
+        //}
     }
 
     public virtual void HideThis()
@@ -55,10 +56,10 @@ public class BaseUIPanel : MonoBehaviour
         //isOn = false;
         gameObject.SetActive(false);
       //  transform.position = hidePos;
-        UIManager.Instance.PopPanel();
-        if(HideType!=EventDefine.HideMainPanel)
-        {
-            EventCenter.Broadcast(EventDefine.ShowMainPanel);
-        }
+        //UIManager.Instance.PopPanel();
+        //if(HideType!=EventDefine.HideMainPanel)
+        //{
+        //    EventCenter.Broadcast(EventDefine.ShowMainPanel);
+        //}
     }
 }
